@@ -1,0 +1,14 @@
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# Backend
+env
+*.pyc
+db.sqlite3
+
+# Frontend
+bower_components
+jspm_packages
+node_modules
